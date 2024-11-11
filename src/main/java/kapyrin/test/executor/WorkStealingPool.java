@@ -1,10 +1,10 @@
-package kapyrin.test.anothertest.executor;
+package kapyrin.test.executor;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import static kapyrin.test.anothertest.executor.IncrementClass.incrementTask;
+import static kapyrin.test.executor.IncrementClass.incrementTask;
 
 public class WorkStealingPool {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package kapyrin.test.anothertest.executor;
+package kapyrin.test.executor;
 
 import java.util.concurrent.CompletableFuture;
 
-import static kapyrin.test.anothertest.executor.IncrementClass.incrementTask;
+import static kapyrin.test.executor.IncrementClass.incrementTask;
 
 public class CompletableFutureWithOutExecutorService {
     public static void main(String[] args) {

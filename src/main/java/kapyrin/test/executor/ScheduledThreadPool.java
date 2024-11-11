@@ -1,10 +1,8 @@
-package kapyrin.test.anothertest.executor;
-
-import org.springframework.http.converter.json.GsonBuilderUtils;
+package kapyrin.test.executor;
 
 import java.util.concurrent.*;
 
-import static kapyrin.test.anothertest.executor.IncrementClass.incrementTask;
+import static kapyrin.test.executor.IncrementClass.incrementTask;
 
 public class ScheduledThreadPool {
     public static void main(String[] args) {

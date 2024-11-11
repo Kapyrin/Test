@@ -1,4 +1,4 @@
-package kapyrin.test.anothertest.executor;
+package kapyrin.test.executor;
 
 
 public class IncrementClass {
